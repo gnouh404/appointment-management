@@ -1,0 +1,32 @@
+package com.example.authservice.entity;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Embeddable;
+import lombok.Getter;
+
+import java.io.Serializable;
+import java.util.Objects;
+
+@Embeddable
+@Getter
+public class UserRoleId implements Serializable {
+    @Column(name = "user_id")
+    private Integer userId;
+
+    @Column(name = "role_id")
+    private Integer roleId;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        UserRoleId other = (UserRoleId) o;
+        return Objects.equals(this.userId, other.userId) && Objects.equals(this.roleId, other.roleId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(this.userId, this.roleId);
+    }
+}
