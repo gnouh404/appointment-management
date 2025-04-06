@@ -1,0 +1,24 @@
+# Ignore toàn bộ .idea ở mọi cấp thư mục
+**/.idea/
+
+# Ignore toàn bộ file application.yml ở mọi cấp thư mục
+**/application.yml
+
+# (Tuỳ chọn) Một số ignore phổ biến khác nếu bạn dùng Java / Spring Boot / IntelliJ
+# Build output
+target/
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
+.idea/
+
+# Ignore môi trường riêng
+.env
