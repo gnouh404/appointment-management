@@ -1,8 +1,8 @@
 package com.appointment.appointmentservice.service;
 
-import com.example.commonlibrary.dto.request.AppointmentCreateRequest;
-import com.example.commonlibrary.dto.request.AppointmentUpdateRequest;
-import com.example.commonlibrary.dto.response.AppointmentResponse;
+import com.appointment.appointmentservice.dto.AppointmentCreateRequest;
+import com.appointment.appointmentservice.dto.AppointmentUpdateRequest;
+import com.example.commonlibrary.dto.response.appointment.AppointmentResponse;
 
 import java.util.List;
 import java.util.UUID;

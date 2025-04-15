@@ -1,9 +1,9 @@
 package com.clinic.clinicservice.controller;
 
 import com.clinic.clinicservice.service.DoctorService;
-import com.example.commonlibrary.dto.request.DoctorCreateRequest;
+import com.clinic.clinicservice.dto.DoctorCreateRequest;
 import com.example.commonlibrary.dto.response.ApiResponse;
-import com.example.commonlibrary.dto.response.DoctorResponse;
+import com.example.commonlibrary.dto.response.clinic.DoctorResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

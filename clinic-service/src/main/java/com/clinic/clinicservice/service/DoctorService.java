@@ -1,7 +1,7 @@
 package com.clinic.clinicservice.service;
 
-import com.example.commonlibrary.dto.request.DoctorCreateRequest;
-import com.example.commonlibrary.dto.response.DoctorResponse;
+import com.clinic.clinicservice.dto.DoctorCreateRequest;
+import com.example.commonlibrary.dto.response.clinic.DoctorResponse;
 
 import java.util.List;
 import java.util.UUID;

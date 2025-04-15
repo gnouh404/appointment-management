@@ -1,8 +1,8 @@
 package com.clinic.clinicservice.service;
 
-import com.example.commonlibrary.dto.request.ClinicCreateRequest;
-import com.example.commonlibrary.dto.request.ClinicUpdateRequest;
-import com.example.commonlibrary.dto.response.ClinicResponse;
+import com.clinic.clinicservice.dto.ClinicCreateRequest;
+import com.clinic.clinicservice.dto.ClinicUpdateRequest;
+import com.example.commonlibrary.dto.response.clinic.ClinicResponse;
 
 import java.util.List;
 import java.util.UUID;

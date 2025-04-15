@@ -1,6 +1,6 @@
 package com.clinic.clinicservice.service;
 
-import com.example.commonlibrary.dto.request.DoctorClinicRequest;
+import com.clinic.clinicservice.dto.DoctorClinicRequest;
 
 import java.util.UUID;
 

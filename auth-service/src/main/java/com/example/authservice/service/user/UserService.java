@@ -1,10 +1,8 @@
 package com.example.authservice.service.user;
 
 import com.example.authservice.dto.UserDetailDto;
-import com.example.authservice.entity.User;
 import com.example.authservice.repository.UserRepository;
 import com.example.authservice.service.jwt.JwtUtils;
-import com.example.commonlibrary.dto.response.UserDto;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;

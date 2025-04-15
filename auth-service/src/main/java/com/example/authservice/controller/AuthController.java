@@ -1,12 +1,12 @@
 package com.example.authservice.controller;
 
 import com.example.authservice.service.AuthService;
-import com.example.commonlibrary.dto.request.LoginRequest;
-import com.example.commonlibrary.dto.request.RefreshTokenRequest;
-import com.example.commonlibrary.dto.request.RegisterRequest;
+import com.example.commonlibrary.dto.request.auth.LoginRequest;
+import com.example.commonlibrary.dto.request.auth.RefreshTokenRequest;
+import com.example.commonlibrary.dto.request.auth.RegisterRequest;
 import com.example.commonlibrary.dto.response.ApiResponse;
-import com.example.commonlibrary.dto.response.TokenResponse;
-import com.example.commonlibrary.dto.response.UserDto;
+import com.example.commonlibrary.dto.response.auth.TokenResponse;
+import com.example.commonlibrary.dto.response.auth.UserDto;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.http.HttpStatus;

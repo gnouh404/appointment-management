@@ -1,10 +1,10 @@
 package com.appointment.appointmentservice.controller;
 
 import com.appointment.appointmentservice.service.AppointmentService;
-import com.example.commonlibrary.dto.request.AppointmentCreateRequest;
-import com.example.commonlibrary.dto.request.AppointmentUpdateRequest;
+import com.appointment.appointmentservice.dto.AppointmentCreateRequest;
+import com.appointment.appointmentservice.dto.AppointmentUpdateRequest;
 import com.example.commonlibrary.dto.response.ApiResponse;
-import com.example.commonlibrary.dto.response.AppointmentResponse;
+import com.example.commonlibrary.dto.response.appointment.AppointmentResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

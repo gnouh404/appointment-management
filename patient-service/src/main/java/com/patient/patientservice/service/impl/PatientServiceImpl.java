@@ -1,8 +1,8 @@
 package com.patient.patientservice.service.impl;
 
-import com.example.commonlibrary.dto.request.PatientCreateRequest;
-import com.example.commonlibrary.dto.request.PatientUpdateRequest;
-import com.example.commonlibrary.dto.response.PatientResponse;
+import com.patient.patientservice.dto.PatientCreateRequest;
+import com.patient.patientservice.dto.PatientUpdateRequest;
+import com.example.commonlibrary.dto.response.patient.PatientResponse;
 import com.patient.patientservice.client.ClinicClient;
 import com.patient.patientservice.entity.Patient;
 import com.patient.patientservice.repository.PatientRepository;

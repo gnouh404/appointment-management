@@ -1,10 +1,10 @@
 package com.clinic.clinicservice.controller;
 
 import com.clinic.clinicservice.service.ClinicService;
-import com.example.commonlibrary.dto.request.ClinicCreateRequest;
-import com.example.commonlibrary.dto.request.ClinicUpdateRequest;
+import com.clinic.clinicservice.dto.ClinicCreateRequest;
+import com.clinic.clinicservice.dto.ClinicUpdateRequest;
 import com.example.commonlibrary.dto.response.ApiResponse;
-import com.example.commonlibrary.dto.response.ClinicResponse;
+import com.example.commonlibrary.dto.response.clinic.ClinicResponse;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;

@@ -2,7 +2,6 @@ package com.example.authservice.repository;
 
 import com.example.authservice.dto.UserDetailDto;
 import com.example.authservice.entity.User;
-import com.example.commonlibrary.dto.response.UserDto;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

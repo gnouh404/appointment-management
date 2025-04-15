@@ -1,14 +1,12 @@
 package com.clinic.clinicservice.service.impl;
 
-import com.clinic.clinicservice.entity.Clinic;
-import com.clinic.clinicservice.entity.Doctor;
 import com.clinic.clinicservice.entity.DoctorClinic;
 import com.clinic.clinicservice.entity.DoctorClinicId;
 import com.clinic.clinicservice.repository.ClinicRepository;
 import com.clinic.clinicservice.repository.DoctorClinicRepository;
 import com.clinic.clinicservice.repository.DoctorRepository;
 import com.clinic.clinicservice.service.DoctorClinicService;
-import com.example.commonlibrary.dto.request.DoctorClinicRequest;
+import com.clinic.clinicservice.dto.DoctorClinicRequest;
 import jakarta.transaction.Transactional;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
